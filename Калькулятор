@@ -1,1 +1,11 @@
-# laba1
+a = input("1 число:")
+b = input("2 число:")
+c = input("Дія ( + - * / ): ")
+if c == "+":
+ print(int(a) + int(b))
+if c == "-":
+ print(int(a) - int(b))
+if c == "*":
+ print(int(a) * int(b))
+if c == "/":
+ print(int(a) / int(b))
